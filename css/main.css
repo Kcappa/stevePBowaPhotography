@@ -1,0 +1,64 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%; }
+
+body {
+  position: relative;
+  background-color: #ffe7e7;
+}
+
+
+.row{
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+/*header*/
+.menuBar{
+  background-color: #ffe7e7;
+  position: fixed;
+  z-index: 1;
+}
+
+.menu{
+  position: fixed;
+  padding:0;
+  top:0;
+}
+
+.mLogo{
+position: relative;
+top:0;
+left: 34.5%;
+}
+
+
+
+/*body*/
+.main{
+position: relative;
+top: 7.5em;
+}
+
+.imgGallery{
+  /*position: static;
+  margin-top: 8em;*/
+}
+
+.photo{
+
+}
+
+/*footer*/
+
+.footer{
+position: relative;
+margin-top:7.5em;
+}
+
+.socialMediaLinks li{
+  display: inline-block;
+}
