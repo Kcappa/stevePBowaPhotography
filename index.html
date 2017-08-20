@@ -26,12 +26,22 @@
   footer: social media links
 -->
   <body>
+
+    <div id="navi" class="sideNav">
+      <a href="javascript:void(0)" class="closebtn">&times;</a>
+      <a href="#index">Home</a>
+      <a href="#about">About</a>
+      <a href="#video">Video</a>
+      <a href="#music">Music</a>
+      <a href="#contact">Contact</a>
+    </div>
+
   <header class="container menuBar">
 
     <div class="row">
 
       <div id="menu" class="col-xs-4 menu">
-        <span class="glyphicon glyphicon-menu-hamburger"></span>
+        <a class="glyphicon glyphicon-menu-hamburger" id="menuIcon"></a>
       </div>
 
       <div class="col-xs-4 mLogo">
@@ -55,30 +65,36 @@
     </div>
 
     <div class="row">
-      <div class="col-xs-12 about">
+      <div class="col-xs-12 about" id="about">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-xs-12 video">
+      <div class="col-xs-12 video" id="video">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-xs-12 music">
+      <div class="col-xs-12 music" id="music">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
     </div>
   </main>
 
-  <footer class="container footer">
-    <div class="row">
-      <div class="col-xs-4">
-        <p><span class="fa fa-phone"</span>: 647-522-3824</p>
-        <p>Email: stevenbowa@gmail.com</p>
+  <footer class="container footer" id="contact">
+
+      <div class="col-xs-12">
+        <p><span class="fa fa-phone"></span> : 647-522-3824</p>
       </div>
+
+      <div class="col-xs-12">
+          <p><span class="fa fa-envelope-o"></span> : stevenbowa@gmail.com</p>
+      </div>
+
+
+      <div class="row socialMediaRow">
       <div class="col-xs-4 col-xs-offset-4">
         <ul class="socialMediaLinks">
           <li><a href="http://www.instagram.com/weirdboy2016" class="fa fa-instagram"></a></li>

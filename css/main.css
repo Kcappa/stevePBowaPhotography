@@ -28,11 +28,40 @@ body {
   padding:0;
   top:0;
 }
+.menu a{
+  color: black;
+}
 
 .mLogo{
 position: relative;
 top:0;
 left: 34.5%;
+}
+
+.sideNav{
+  position: fixed;
+  width: 0;
+  height: 100%;
+  overflow-x: hidden;
+  z-index: 2;
+  background-color: black;
+  top:0;
+  left:0;
+  transition: 0.5s;
+  padding-top: 3em;
+}
+
+.sideNav a{
+  display: block;
+  text-decoration: none;
+  font-size: 2em;
+  color: #ffe7e7;
+}
+
+.sideNav .closebtn{
+    position: absolute;
+    top: 0;
+    right: .25em;
 }
 
 
@@ -59,6 +88,15 @@ position: relative;
 margin-top:7.5em;
 }
 
+.socialMediaLinks{
+  text-align: center;
+  padding-top: .5em;
+}
+
 .socialMediaLinks li{
   display: inline-block;
+}
+
+.socialMediaLinks a{
+  color: black;
 }
