@@ -40,12 +40,21 @@
 
     <div class="row">
 
-      <div id="menu" class="col-xs-4 menu">
+      <div id="menu" class="col-xs-4 col-md-6 menu">
         <a class="glyphicon glyphicon-menu-hamburger" id="menuIcon"></a>
+
+        <ul id="desktopNavi" class="deskNavi">
+          <li><a href="#index">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#video">Video</a></li>
+          <li><a href="#music">Music</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </div>
 
-      <div class="col-xs-4 mLogo">
+      <div class="col-xs-4 col-md-6 mLogo">
         <img src="img/spbLogoMobile.png" alt="" class="img-responsive" id="logo">
+        <img src="img/spbLogoDesktop.png" alt="" class="img-responsive" id="desktopLogo">
       </div>
 
     </div>
@@ -54,13 +63,15 @@
   <main class="container main">
 
     <div class="row">
-      <div class="col-xs-12 imgGallery">
-        <ul class="">
+      <div class="col-xs-12 imgGalleryContainer">
+        <ul class="imgGallery">
           <li><img src="img/Kal 1.jpg" alt="" class="img-responsive photo" id="img01"></li>
           <li><img src="img/Kal 3.jpg" alt="" class="img-responsive photo" id="img02"></li>
           <li><img src="img/Kal 4.jpg" alt="" class="img-responsive photo" id="img03"></li>
           <li><img src="img/Kal 5.jpg" alt="" class="img-responsive photo" id="img04"></li>
         </ul>
+        <button class="btn btn-default fa fa-chevron-circle-left prev"></button>
+        <button class="btn btn-default fa fa-chevron-circle-right next"></button>
       </div>
     </div>
 
