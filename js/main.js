@@ -1,3 +1,4 @@
+//mobile menu button
 $('#menuIcon').click(function(){
 
 $('#navi').css("width", "50%");
@@ -11,6 +12,9 @@ $('#navi').css("width", "0");
 });
 
 //slide show
+if (document.documentElement.clientWidth >= 768) {
+
+
 $(function() {
 
 var ul = $(".imgGalleryContainer ul");
@@ -23,7 +27,7 @@ var slide_index = 0;
 ul.find("li").each(function(indx) {
 var left_percent = (slide_width_pc * indx) + "%";
 $(this).css({"left":left_percent});
-$(this).css({width:(100 / slide_count) + "%"});
+$(this).css({"width":(100 / slide_count) + "%"});
 });
 
 // Listen for click of prev button
@@ -55,3 +59,5 @@ slide_index = new_slide_index
 console.log(ul.children().length);
 
 });
+
+}

@@ -105,6 +105,41 @@ margin-top:7.5em;
   #desktopNavi{
     display: none;
   }
+
+  .prev{
+    display: none;
+  }
+
+  .next{
+    display: none;
+  }
+
+  .imgGalleryContainer{
+    width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+  }
+
+  .imgGallery{
+    width: 100%;
+    height: 100%;
+  }
+
+  .imgGallery li{
+    padding: 0em;
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .imgGallery img{
+    width: 100%;
+    min-height: 100%;
+  }
+
+
+
 }
 
 /*Tablet & Desktop*/
@@ -157,16 +192,16 @@ margin-top:7.5em;
 }
 
 .imgGallery li{
+  padding: 1.5em;
+  display: inline-block;
   width: 25%;
   height: 100%;
   overflow: hidden;
 }
 
-.imgGallery li img{
-  display: inline;
+.imgGallery img{
   width: 100%;
   min-height: 100%;
-
 }
 
 .imgGalleryContainer button{
