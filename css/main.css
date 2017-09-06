@@ -193,10 +193,11 @@ margin-top:7.5em;
 
 .imgGallery li{
   padding: 1.5em;
-  display: inline-block;
+  float: left;
   width: 25%;
   height: 100%;
   overflow: hidden;
+    /*display: inline-block;*/
 }
 
 .imgGallery img{
